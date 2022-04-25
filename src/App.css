@@ -1,0 +1,62 @@
+.container {
+    display: flex;
+}
+
+.ml-10 {
+    margin-left: 30px;
+}
+aside {
+    width: 200px;
+    min-height: 100vh;
+    background: #FAFBFD;
+}
+aside h2{
+    margin-left: 10px;
+    margin-top: 20px;
+    font-size: 22px;
+}
+ul {
+    list-style: none;
+    margin-top: 40px;
+    margin-left: 10px;
+    width: 100%;
+}
+
+ul li{
+    margin: 20px 0;
+    cursor: pointer;
+    font-size: 14px;
+    color: #9E9E9E;
+}
+
+.btn-aside-active {
+    color: #090F31;
+    font-weight: 600;
+}
+
+section {
+    width: 100%;
+    padding: 0 20px;
+}
+
+section h2{
+    color: #4F4F4F;
+    margin-top: 20px;
+}
+
+.wrap-btn {
+    display: flex;
+    margin-top: 30px;
+    width: 100%;
+}
+
+/* .container-btn{
+    
+} */
+
+.container-btn p{
+    font-family: 'Ubuntu Mono';
+    font-size: 14px;
+    color: #333333;
+    margin-bottom: 10px;
+}

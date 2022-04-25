@@ -1,0 +1,98 @@
+button {
+    cursor: pointer;
+    transition: all linear .3s;
+    padding: 10px 20px;
+    font-weight: 500;
+    border-radius: 6px;
+    font-size: 14px;
+    border: none;
+    background: #E0E0E0;
+    color: #3F3F3F;
+    box-shadow: 0px 2px 3px rgba(51, 51, 51, 0.2);
+}
+
+button:hover, button:focus  {
+    background: #AEAEAE;
+}
+
+.btn-sm {
+    font-size: 12px;
+    padding: 7px 16px;
+}
+.btn-lg {
+    font-size: 16px;
+    padding: 13px 26px;
+}
+.primary{
+    background: #3D5AFE;
+    color: white;
+}
+.secondary {
+    background: #455A64;
+    color: white;
+}
+.danger {
+    background: #D32F2F;
+    color: white;
+}
+.primary:hover, .primary:focus {
+    background: #0039CB;
+}
+.secondary:hover, .secondary:focus {
+    background: #1C313A;
+}
+.danger:hover, .danger:focus {
+    background: #9A0007;
+}
+.outline {
+    border: 1px solid #3D5AFE;
+    color: #3D5AFE;
+    background-color: white;
+}
+
+.outline:hover, .outline:focus{
+    background: rgba(41, 98, 255, 0.1);
+}
+
+.text {
+    color: #3D5AFE;
+    background: none;
+    padding: 0;
+    transition: none;
+    box-shadow: none;
+}
+
+.text:hover, .text:focus{
+    background: rgba(41, 98, 255, 0.1);
+    padding: 10px 20px;
+}
+
+.disableShadow {
+    background: #3D5AFE;
+    color: white;
+}
+.disableShadow:hover, .disableShadow:focus {
+    box-shadow: none;
+    background: #3D5AFE;
+}
+.disable {
+    color: #9E9E9E;
+    padding: 10px 20px;
+}
+.disable:focus, .disable:hover{
+    background: none;
+}
+.startIcon, .endIcon {
+    color: white;
+    background: #3D5AFE;
+    display: flex;
+    justify-content: center;
+}
+
+.startIcon > span{
+    margin-left: 5px;
+}
+.endIcon > span{
+    margin-right: 5px;
+}
+
